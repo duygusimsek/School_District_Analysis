@@ -34,5 +34,5 @@ Because of the new situation and change on the dataset, the school district anal
         [schools_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/schools_complete.csv), 
         [students_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/students_complete.csv)
 * Libraries: Pandas and Numpy
-* Software: Jupiter notebook
+* Software: [Jupiter Notebook 6.3.0](https://jupyter.org/)
 * Language: [Python 3.10.2](https://www.python.org/downloads)
