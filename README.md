@@ -61,11 +61,12 @@ The spending range where Thomas High School is located is $630-644 per student a
 
 (add the screeshot)
 
-* Impact on Scores by School Size
+- **Impact on Scores by School Size**
 
 Because Thomas High School was grouped into Medium size schools, the medium-size category’s scores had less than 1% of change for each metric. (add the image). 
 
-* Impact on Scores by School Type
+- **Impact on Scores by School Type**
+
 District School types did not affect by the new data alteration. However,  because Thomas High School is a Charter type school slight changes had occurred. (less than 1%) (add image)
 
 ## Summary
