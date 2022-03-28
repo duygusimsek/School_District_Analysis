@@ -4,9 +4,12 @@
 
 ### History of the Analysis
 
-In the previous project, a City School District requested an analysis based on the data collections from schools of the district and the students. (add the data sources here). (school_data and student_data)
+In the previous project, a City School District requested an analysis based on the data collections from schools of the district and the students. 
+        [schools_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/schools_complete.csv), 
+        [students_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/students_complete.csv)
 
-The district-wide standardized test results for math and reading scores and the schools’ information (school types, school budget, etc. ) were analyzed. The analysis result will use for strategic decisions at the school and district levels regarding school budgets and priorities. (add the “PyCitySchool.ipynb” here)
+The district-wide standardized test results for math and reading scores and the schools’ information (school types, school budget, etc. ) were analyzed. The analysis result will use for strategic decisions at the school and district levels regarding school budgets and priorities. 
+[PyCitySchool.ipynb](https://github.com/duygusimsek/School_District_Analysis/blob/main/PyCitySchools.ipynb)
 
 ### Purpose of the Analysis
 
@@ -20,21 +23,23 @@ Because of the new situation and change on the dataset, the school district anal
 
 Changing the Thomas High School 9th grade’s math and reading scores to NaNs did not make an important change on the District Analysis because the count of students from  Thomas High School 9th grade (461) only represents approximately 1.2% of the total student count (39,170) on the dataset. Because of that, the impact on the district analysis for each score had decreased by less than 0.03%. 
 
-Previous District Analysis(add the screenshot here)-or the link
-Recalculated District Analysis(add the screenshot here)
+[Previous District Analysis](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/district_summary_originaln.png)
+
+[Recalculated District Analysis](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/district_summary_with_NaNs.png)
 
 ### Impact on the School Summary Analysis
 
 In the previous analysis, Thomas High School’s overall passing rate (math and reading) was over 91%.  Which was a high score among the other schools. But after adjusting the altered data had an important impact on Thomas High School’s overall passing rate, which had dropped to 65%.  
 
-Previous School Summary Analysis- (add a screenshot here)
-Recalculated School Summary Analysis (add a screenshot here)
+[Previous School Summary Analysis - THS ](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/THS_school_summary_original.png)
+
+[Recalculated School Summary Analysis - THS](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/THS_school_summary_recalculated.png)
 
 ### Impact of adjusting data on Thomas High School Relative Performance to the Other Schools
 
-The original analysis shows that with the 9th graders’ math and reading scores, Thomas High School ranked 2nd place in the “Top District School” list.   (add the screenshot here - original top School list)
+The original analysis shows that with the 9th graders’ math and reading scores, Thomas High School ranked 2nd place in the “Top District School” list.   [Previous Top School List](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_top_schools.png)
 
-After removing the 9th graders’ math and reading data, Thomas High School’s ranked in the “Top District School” list was not affected. Because the 9th-grade student count does not include the calculation of the new overall passing percentage, the changes only had a small impact of approximately a change of 1% point on each metric. (add the screenshot here - recalculated top School list)
+After removing the 9th graders’ math and reading data, Thomas High School’s ranked in the “Top District School” list was not affected. Because the 9th-grade student count does not include the calculation of the new overall passing percentage, the changes only had a small impact of approximately a change of 1% point on each metric. [Recalculated Top School List](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Recalculated_top_schools.png)
 
 ### Impact of removing the 9th-grade scores on :
 
@@ -66,6 +71,6 @@ District School types did not affect by the new data alteration. However,  becau
 * Data Sources: 
         [schools_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/schools_complete.csv), 
         [students_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/students_complete.csv)
-* Libraries: Pandas and Numpy
 * Software: [Jupiter Notebook 6.3.0](https://jupyter.org/)
 * Language: [Python 3.10.2](https://www.python.org/downloads)
+* Libraries: Pandas and Numpy
