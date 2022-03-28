@@ -12,19 +12,18 @@ The district-wide standardized test results for math and reading scores and the 
 
 The school board had been discovered some alterations on the Thomas High School 9th grades math and reading scores and to ensure these altered scores do not skew the analysis, the Board request new data analysis with replacing the math and reading scores for 9th grade Thomas High School with null value while keeping the rest of the data untouched. 
 
+## Results
+
 Because of the new situation and change on the dataset, the school district analysis was needed to repeat and review how this change impacted the analysis result. 
 
+### Impact on District Summary Analysis
 
+Changing the Thomas High School 9th grade’s math and reading scores to NaNs did not make an important change on the District Analysis because the count of students from  Thomas High School 9th grade (461) only represents approximately 1.2% of the total student count (39,170) on the dataset. Because of that, the impact on the district analysis for each score had decreased by less than 0.03%. 
 
+Previous District Analysis(add the screenshot here)-or the link
+Recalculated District Analysis(add the screenshot here)
 
-
-
-
-
-
-
-
-
+### Impact on the School Summary Analysis
 
 
 
