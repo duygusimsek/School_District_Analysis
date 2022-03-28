@@ -25,8 +25,42 @@ Recalculated District Analysis(add the screenshot here)
 
 ### Impact on the School Summary Analysis
 
+In the previous analysis, Thomas High School’s overall passing rate (math and reading) was over 91%.  Which was a high score among the other schools. But after adjusting the altered data had an important impact on Thomas High School’s overall passing rate, which had dropped to 65%.  
 
+Previous School Summary Analysis- (add a screenshot here)
+Recalculated School Summary Analysis (add a screenshot here)
 
+### Impact of adjusting data on Thomas High School Relative Performance to the Other Schools
+
+The original analysis shows that with the 9th graders’ math and reading scores, Thomas High School ranked 2nd place in the “Top District School” list.   (add the screenshot here - original top School list)
+
+After removing the 9th graders’ math and reading data, Thomas High School’s ranked in the “Top District School” list was not affected. Because the 9th-grade student count does not include the calculation of the new overall passing percentage, the changes only had a small impact of approximately a change of 1% point on each metric. (add the screenshot here - recalculated top School list)
+
+### Impact of removing the 9th-grade scores on :
+
+* Math and Reading Scores by Grade 
+
+The only score that was affected on this DataFrame is the  9th-grade students at Thomas High School, which had  NaN instead of a grade for both math and reading scores.  (add the link of the math and reading screenshot here) - original and recalculated (4)
+
+* Impact on Scores by School Spending
+
+The spending range where Thomas High School is located is $630-644 per student and it has a slight change which does not affect the result when the numbers were rounded up. 
+
+(add the screeshot)
+
+* Impact on Scores by School Size
+
+Because Thomas High School was grouped into Medium size schools, the medium-size category’s scores had less than 1% of change for each metric. (add the image). 
+
+* Impact on Scores by School Type
+District School types did not affect by the new data alteration. However,  because Thomas High School is a Charter type school slight changes had occurred. (less than 1%) (add image)
+
+## Summary
+
+1. Thomas High School’s overall passing rate had changed dramatically from 91% to 65%.
+2. Thomas High School's ranking for top schools had not been affected but the overall score was decreased slightly. 
+3. Thomas High School 9th-grade student math and reading data are not in the new dataset. 
+4. Charter schools’ success rate slightly affected,  
 
 ## Resources 
 * Data Sources: 
