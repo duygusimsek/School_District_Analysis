@@ -43,11 +43,19 @@ After removing the 9th graders’ math and reading data, Thomas High School’s 
 
 ### Impact of removing the 9th-grade scores on :
 
-* Math and Reading Scores by Grade 
+- **Math and Reading Scores by Grade**
 
-The only score that was affected on this DataFrame is the  9th-grade students at Thomas High School, which had  NaN instead of a grade for both math and reading scores.  (add the link of the math and reading screenshot here) - original and recalculated (4)
+The only score that was affected on this DataFrame is the  9th-grade students at Thomas High School, which had  NaN instead of a grade for both math and reading scores.
 
-* Impact on Scores by School Spending
+[Previous Math Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_math_score_by_grades.png)
+
+[Recalculated Math Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/new_math_score_by_grades.png)
+
+[Previous Reading Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_reading_score_by_grades.png)
+
+[Recalculated Reading Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/new_reading%20score_by_grades.png)
+
+- **Impact on Scores by School Spending**
 
 The spending range where Thomas High School is located is $630-644 per student and it has a slight change which does not affect the result when the numbers were rounded up. 
 
@@ -65,7 +73,7 @@ District School types did not affect by the new data alteration. However,  becau
 1. Thomas High School’s overall passing rate had changed dramatically from 91% to 65%.
 2. Thomas High School's ranking for top schools had not been affected but the overall score was decreased slightly. 
 3. Thomas High School 9th-grade student math and reading data are not in the new dataset. 
-4. Charter schools’ success rate slightly affected,  
+4. Charter schools’ success rate slightly affected.
 
 ## Resources 
 * Data Sources: 
