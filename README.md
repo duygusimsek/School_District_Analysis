@@ -5,8 +5,6 @@
 ### History of the Analysis
 
 In the previous project, a City School District requested an analysis based on the data collections from schools of the district and the students. 
-        [schools_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/schools_complete.csv), 
-        [students_complete.csv](https://github.com/duygusimsek/School_District_Analysis/blob/main/Resources/students_complete.csv)
 
 The district-wide standardized test results for math and reading scores and the schools’ information (school types, school budget, etc. ) were analyzed. The analysis result will use for strategic decisions at the school and district levels regarding school budgets and priorities. 
 [PyCitySchool.ipynb](https://github.com/duygusimsek/School_District_Analysis/blob/main/PyCitySchools.ipynb)
@@ -23,17 +21,14 @@ Because of the new situation and change on the dataset, the school district anal
 
 Changing the Thomas High School 9th grade’s math and reading scores to NaNs did not make an important change on the District Analysis because the count of students from  Thomas High School 9th grade (461) only represents approximately 1.2% of the total student count (39,170) on the dataset. Because of that, the impact on the district analysis for each score had decreased by less than 0.03%. 
 
-[Previous District Analysis](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/district_summary_originaln.png)
-
-[Recalculated District Analysis](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/district_summary_with_NaNs.png)
+- [Previous District Analysis](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/district_summary_originaln.png)
+- [Recalculated District Analysis](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/district_summary_with_NaNs.png)
 
 ### Impact on the School Summary Analysis
 
 In the previous analysis, Thomas High School’s overall passing rate (math and reading) was over 91%.  Which was a high score among the other schools. But after adjusting the altered data had an important impact on Thomas High School’s overall passing rate, which had dropped to 65%.  
-
-[Previous School Summary Analysis - THS ](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/THS_school_summary_original.png)
-
-[Recalculated School Summary Analysis - THS](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/THS_school_summary_recalculated.png)
+- [Previous School Summary Analysis - THS ](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/THS_school_summary_original.png)
+- [Recalculated School Summary Analysis - THS](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/THS_school_summary_recalculated.png)
 
 ### Impact of adjusting data on Thomas High School Relative Performance to the Other Schools
 
@@ -43,38 +38,39 @@ After removing the 9th graders’ math and reading data, Thomas High School’s 
 
 ### Impact of removing the 9th-grade scores on :
 
-- **Math and Reading Scores by Grade**
+**1.Math and Reading Scores by Grade**
 
 The only score that was affected on this DataFrame is the  9th-grade students at Thomas High School, which had  NaN instead of a grade for both math and reading scores.
 
-[Previous Math Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_math_score_by_grades.png)
+- [Previous Math Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_math_score_by_grades.png)
+- [Recalculated Math Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/new_math_score_by_grades.png)
+- [Previous Reading Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_reading_score_by_grades.png)
+- [Recalculated Reading Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/new_reading%20score_by_grades.png)
 
-[Recalculated Math Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/new_math_score_by_grades.png)
-
-[Previous Reading Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_reading_score_by_grades.png)
-
-[Recalculated Reading Score by Grade](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/new_reading%20score_by_grades.png)
-
-- **Impact on Scores by School Spending**
+**2.Impact on Scores by School Spending**
 
 The spending range where Thomas High School is located is $630-644 per student and it has a slight change which does not affect the result when the numbers were rounded up. 
+- [Previous School Spending Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_spending_summary.png)
+- [Recalculated School Spending Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Recalculated_spending_summary.png)
 
-(add the screeshot)
+**3.Impact on Scores by School Size**
 
-- **Impact on Scores by School Size**
+Because Thomas High School was grouped into Medium size schools, the medium-size category’s scores had less than 1% of change for each metric. 
+- [Previous School Size Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/original_size_summary.png)
+- [Recalculated School Size Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Recalculated_size_summary.png)
 
-Because Thomas High School was grouped into Medium size schools, the medium-size category’s scores had less than 1% of change for each metric. (add the image). 
+**4.Impact on Scores by School Type**
 
-- **Impact on Scores by School Type**
-
-District School types did not affect by the new data alteration. However,  because Thomas High School is a Charter type school slight changes had occurred. (less than 1%) (add image)
+District School types did not affect by the new data alteration. However,  because Thomas High School is a Charter type school slight changes had occurred. (less than 1%)
+- [Previous School Type Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_school_type_summary.png)
+- [Recalculated School Size Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Recalculated_school_type_summary.png)
 
 ## Summary
 
-1. Thomas High School’s overall passing rate had changed dramatically from 91% to 65%.
-2. Thomas High School's ranking for top schools had not been affected but the overall score was decreased slightly. 
-3. Thomas High School 9th-grade student math and reading data are not in the new dataset. 
-4. Charter schools’ success rate slightly affected.
+* Thomas High School’s overall passing rate had changed dramatically from 91% to 65%.
+* Thomas High School's ranking for top schools had not been affected but the overall score was decreased slightly. 
+* Thomas High School 9th-grade student math and reading data are not in the new dataset. 
+* Charter schools’ success rate slightly affected.
 
 ## Resources 
 * Data Sources: 
