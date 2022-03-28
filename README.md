@@ -17,7 +17,7 @@ The school board had been discovered some alterations on the Thomas High School 
 
 ## Results
 
-Because of the new situation and change on the dataset, the school district analysis was needed to repeat and review how this change impacted the analysis result. 
+Because of the new situation and change on the dataset, the school district analysis was needed to repeat and review how this change impacted the analysis result. [PyCitySchools_Challenge.ipynb](https://github.com/duygusimsek/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
 
 ### Impact on District Summary Analysis
 
