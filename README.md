@@ -63,7 +63,7 @@ Because Thomas High School was grouped into Medium size schools, the medium-size
 
 District School types did not affect by the new data alteration. However,  because Thomas High School is a Charter type school slight changes had occurred. (less than 1%)
 - [Previous School Type Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Original_school_type_summary.png)
-- [Recalculated School Size Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Recalculated_school_type_summary.png)
+- [Recalculated School Type Summary](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Recalculated_school_type_summary.png)
 
 ## Summary
 
