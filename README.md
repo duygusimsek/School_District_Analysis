@@ -17,6 +17,8 @@ The school board had been discovered some alterations on the Thomas High School 
 
 Because of the new situation and change on the dataset, the school district analysis was needed to repeat and review how this change impacted the analysis result. [PyCitySchools_Challenge.ipynb](https://github.com/duygusimsek/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
 
+[Deliverable_1_result](https://github.com/duygusimsek/School_District_Analysis/blob/main/Screenshots/Deliverable_1_result.png)
+
 ### Impact on District Summary Analysis
 
 Changing the Thomas High School 9th grade’s math and reading scores to NaNs did not make an important change on the District Analysis because the count of students from  Thomas High School 9th grade (461) only represents approximately 1.2% of the total student count (39,170) on the dataset. Because of that, the impact on the district analysis for each score had decreased by less than 0.03%. 
